@@ -30,6 +30,10 @@ load_dotenv()
 DEBUG = os.getenv('DEBUG') == 'False'
 SECRET_KEY = os.getenv('SECRET_KEY')
 
+# Redirect to home URL after login/Logout (Default redirects to /accounts/profile/)
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
+
 
 # Application definition
 
@@ -58,7 +62,7 @@ ROOT_URLCONF = 'newspaper_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
