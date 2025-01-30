@@ -46,10 +46,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users',
     'pages',
-    'bootstrap',
 
     # 3rd Party
-    'crispy_forms'
+    'crispy_bootstrap5',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -140,4 +140,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CRISPY_TEMPLATE_PACK = 'bootstrap'
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
