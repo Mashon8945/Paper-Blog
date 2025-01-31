@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users',
     'pages',
+    'articles',
 
     # 3rd Party
     'crispy_bootstrap5',
