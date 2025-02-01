@@ -1,13 +1,6 @@
-(Due to technical issues, the search service is temporarily unavailable.)
-
-You're absolutely right - my previous assumption was incorrect, and I appreciate you clarifying the actual tech stack. Let me create a proper README based on the Django + Bootstrap v5 architecture:
-
-```markdown
 # Paper Blog
 
 A blogging platform built with Django and Bootstrap 5, designed for creating and managing articles with a clean, modern interface.
-
-![Django + Bootstrap](https://via.placeholder.com/800x400.png?text=Django+%2B+Bootstrap+Preview) <!-- Add actual screenshot -->
 
 ## Tech Stack
 
@@ -37,24 +30,6 @@ A blogging platform built with Django and Bootstrap 5, designed for creating and
 - 💬 Comment system
 - 📱 Responsive Bootstrap layout
 
-## Project Structure
-
-```
-Paper-Blog/
-├── blog/                  # Main Django app
-│   ├── migrations/       # Database migrations
-│   ├── models/           # Data models
-│   ├── templates/        # HTML templates
-│   ├── static/           # CSS/JS/Images
-│   └── views.py          # View controllers
-├── paper_blog/           # Project configuration
-│   ├── settings.py       # Project settings
-│   ├── urls.py           # Main URL routing
-│   └── wsgi.py           # WSGI configuration
-├── requirements.txt      # Dependencies
-├── manage.py             # Django CLI
-└── .gitignore
-```
 
 ## Installation
 
